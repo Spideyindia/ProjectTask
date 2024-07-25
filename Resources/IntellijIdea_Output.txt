@@ -1,0 +1,58 @@
+C:\jdk-18.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.1\lib\idea_rt.jar=60430:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\Admin\Desktop\Company Task\ProjectTask\target\classes;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.2\spring-boot-starter-3.3.2.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot\3.3.2\spring-boot-3.3.2.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\6.1.11\spring-context-6.1.11.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\6.1.11\spring-aop-6.1.11.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\6.1.11\spring-expression-6.1.11.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-observation\1.13.2\micrometer-observation-1.13.2.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-commons\1.13.2\micrometer-commons-1.13.2.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.2\spring-boot-autoconfigure-3.3.2.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.2\spring-boot-starter-logging-3.3.2.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-classic\1.5.6\logback-classic-1.5.6.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-core\1.5.6\logback-core-1.5.6.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\Admin\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar;C:\Users\Admin\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\6.1.11\spring-core-6.1.11.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\6.1.11\spring-jcl-6.1.11.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.3.2\spring-boot-starter-jdbc-3.3.2.jar;C:\Users\Admin\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jdbc\6.1.11\spring-jdbc-6.1.11.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\6.1.11\spring-beans-6.1.11.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-tx\6.1.11\spring-tx-6.1.11.jar;C:\Users\Admin\.m2\repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar" com.bluemingo.BluemingoApplication
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-07-25T16:31:11.096+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : Starting BluemingoApplication using Java 18.0.2 with PID 7816 (C:\Users\Admin\Desktop\Company Task\ProjectTask\target\classes started by Admin in C:\Users\Admin\Desktop\Company Task\ProjectTask)
+2024-07-25T16:31:11.102+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-25T16:31:13.174+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : Started BluemingoApplication in 2.992 seconds (process running for 3.742)
+2024-07-25T16:31:13.197+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : Read OrderDetails.txt file contents and add to DB? Answer in Yes or No :: 
+yes
+2024-07-25T16:56:22.335+05:30  INFO 7816 --- [Bluemingo] [           main] c.b.u.OrderDetailsFileReaderUtility      : Inside the readOrderDetailsFromFile
+2024-07-25T16:56:22.589+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : From addOrderDetailEntries
+2024-07-25T16:56:22.591+05:30  INFO 7816 --- [Bluemingo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-25T16:56:23.486+05:30  INFO 7816 --- [Bluemingo] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ad4a7d6
+2024-07-25T16:56:23.489+05:30  INFO 7816 --- [Bluemingo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-25T16:56:27.770+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : Number of records added are : 0
+2024-07-25T16:56:27.771+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : OrderDetails.txt file had entries count :: 6650
+2024-07-25T16:56:27.771+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : Read Grade_Details.txt file contents and add to DB? Answer in Yes or No :: 
+yes
+2024-07-25T16:56:34.782+05:30  INFO 7816 --- [Bluemingo] [           main] c.b.u.GradeDetailsFileReaderUtility      : Inside the readGradeDetailsFromFile
+2024-07-25T16:56:34.804+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : From addGradeDetailEntries
+2024-07-25T16:56:35.219+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : Number of records added are : 0
+2024-07-25T16:56:35.220+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : Grade_Details.txt file had entries count :: 987
+2024-07-25T16:56:35.220+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : Read Grade_Mix.txt file contents and add to DB? Answer in Yes or No :: 
+no
+2024-07-25T16:56:36.409+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : Calling method to get records from specific counts upto L1 group as specified in the given task sheet ::
+2024-07-25T16:56:36.409+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : start count : 
+100
+2024-07-25T16:56:40.733+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.BluemingoApplication       : end count : 
+115
+2024-07-25T16:56:46.183+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : From fetchUptoL1Group
+2024-07-25T16:56:46.197+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : If comes false means the bucket days are set properly :: false
+2024-07-25T16:56:46.804+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : Order_No Order_Width New_Set_Width Grade Grade Grp Delivery_Date L1_Group Ceiling_Order_Width Prev_Ceiling_Order_Width Gap Set_Width Set_Width_Plus_15 Diff BTR_Qty BTC_Qty Product bucket total_records width_rank
+2024-07-25T16:56:46.831+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 1363 2000 2000 ABCD135 AG2 2023-11-25 L1G3 2000 2000 0 null null null 238 261.8 P7 13 6650 1
+2024-07-25T16:56:46.832+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 1150 2000 2000 ABCD97 AG2 2023-12-10 L1G3 2000 2000 0 null null null 148 162.8 P7 14 6650 1
+2024-07-25T16:56:46.832+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 1152 2000 2000 ABCD97 AG2 2023-12-10 L1G3 2000 2000 0 null null null 1224 1346.4 P7 14 6650 1
+2024-07-25T16:56:46.833+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 1499 2000 2000 ABCD88 AG2 2023-12-20 L1G3 2000 2000 0 null null null 649 713.9 P7 15 6650 1
+2024-07-25T16:56:46.834+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 1340 2000 2000 ABCD137 AG2 2023-12-25 L1G3 2000 2000 0 null null null 24 26.4 P7 15 6650 1
+2024-07-25T16:56:46.835+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 1533 2000 2000 ABCD88 AG2 2023-12-25 L1G3 2000 2000 0 null null null 649 713.9 P7 15 6650 1
+2024-07-25T16:56:46.835+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 1416 2000 2000 ABCD137 AG2 2023-12-30 L1G3 2000 2000 0 null null null 63 69.3 P7 16 6650 1
+2024-07-25T16:56:46.836+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 2697 2000 2000 ABCD107 AG2 2024-01-15 L1G3 2000 2000 0 null null null 12 13.2 P7 17 6650 1
+2024-07-25T16:56:46.837+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 2466 2000 2000 ABCD107 AG2 2024-01-20 L1G3 2000 2000 0 null null null 23 25.3 P7 17 6650 1
+2024-07-25T16:56:46.837+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 2585 2000 2000 ABCD72 AG2 2024-01-20 L1G3 2000 2000 0 null null null 9 9.9 P7 17 6650 1
+2024-07-25T16:56:46.838+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 2587 2000 2000 ABCD72 AG2 2024-01-20 L1G3 2000 2000 0 null null null 9 9.9 P7 17 6650 1
+2024-07-25T16:56:46.839+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 2588 2000 2000 ABCD72 AG2 2024-01-20 L1G3 2000 2000 0 null null null 47 51.7 P7 17 6650 1
+2024-07-25T16:56:46.840+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 2589 2000 2000 ABCD72 AG2 2024-01-20 L1G3 2000 2000 0 null null null 10 11.0 P7 17 6650 1
+2024-07-25T16:56:46.840+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 2592 2000 2000 ABCD108 AG2 2024-01-20 L1G3 2000 2000 0 null null null 12 13.2 P7 17 6650 1
+2024-07-25T16:56:46.841+05:30  INFO 7816 --- [Bluemingo] [           main] com.bluemingo.dao.MySQLDao               : 2594 2000 2000 ABCD107 AG2 2024-01-20 L1G3 2000 2000 0 null null null 9 9.9 P7 17 6650 1
+2024-07-25T16:56:46.856+05:30  INFO 7816 --- [Bluemingo] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-25T16:56:46.869+05:30  INFO 7816 --- [Bluemingo] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+Process finished with exit code 0
