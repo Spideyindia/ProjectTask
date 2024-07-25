@@ -10,6 +10,7 @@ How to run the project:
 2. Open Project in Intellij Idea using Hamburger option --> Open --> <Give-project-path>
 3. Run the project from src/main/java/BluemingoApplication 
 --------------------------------
-Where to find snapshots related to data from db tables and outputs from IDE:
+Resources of this project
 --------------------------------
-Inside ProjectTask Folder there is a "Images" folder in which I have added a word file containing all snapshots for reference. 
+Check Resources Folder
+
